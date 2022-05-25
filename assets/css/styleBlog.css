@@ -1,0 +1,694 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* chung */
+.job-post{
+    padding: 40px 0px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.job-post-padding-hep {
+    padding: 20px 0px;
+    /* padding-bottom: 20px; */
+    margin-left: -15px;
+    /* margin-top: 29px; */
+    /* background-color: rgb(235 235 235); */
+}
+.job-container{
+    margin: 0px 210px;
+    padding: 0px 15px;
+}
+.job-header{
+    padding: 16px 0px;
+    margin-bottom: 48px;
+}
+.job-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-Categories{
+    margin-bottom: 22px;
+    color: rgb(153, 153, 153);
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.header-current{
+    font-size: 40px;
+    display: block;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.8);
+}
+.b-job{
+    line-height: 60px;
+    font-weight: 700; 
+    font-size: 40px;
+}
+.job-list{
+    
+}
+.list-flex-row{
+   
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-content: center; */
+    flex-wrap: wrap;
+}
+.list-flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Nav */
+
+nav.header {
+    padding: 24px 16px;
+    position: absolute;
+    width: 100%;
+    
+}
+.header>div.container-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+    margin: 0px 190px;
+    font-size: 16px;
+    transform: translateY(10px);
+    vertical-align: middle;
+}
+a.nav-home {
+    padding: 5px 0px;
+    margin-right: 16px;
+    font-size: 30px;
+    display: block;
+    font-weight: 700;
+    line-height: 36px;
+    line-height: 28.7px;
+    text-decoration: none;
+    color: white;
+}
+.nav-element{
+ 
+    
+    font-size: 16px;
+    
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+a.icon {
+    display: none;
+}
+ul.nav-ull {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 303px;
+    text-align: right;
+    list-style-type: none;
+}
+/* -------respon nav---------- */
+
+/* --------end---- */
+li.nav-item{
+    margin-right: 6px;
+}
+a.nav-link{
+    padding: 0px 20px;
+    line-height:2.7;
+    color: white;
+    text-decoration: none;
+}
+.btn-nav{
+    text-decoration: none;
+    color: white !important;
+}
+.btn-bluee{
+    background-color: rgb(21, 126, 251);
+    color: aliceblue !important;
+    border-radius: 5px;
+}
+.btn-greenn{
+    background-color: rgb(93, 210, 142);
+    color: aliceblue !important;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+/* bg-image */
+.bg-image{
+    background-image: url(https://preview.colorlib.com/theme/jobportal/images/xbg_2.jpg.pagespeed.ic.UrtJzl_WMI.webp); 
+    width: 100%; 
+    background-position: 50%; 
+    background-size: cover;
+    font-size: 16px;
+    height: 592px;
+}
+.bg-container{
+    margin: 0px 210px;
+    padding: 112px 15px;
+}
+.bg-element{
+    height: 661px;
+    /* margin-left: 50px; */
+    
+}
+span.bg-content a{
+    text-decoration: none;
+}
+span.bg-content a,span.bg-content span{
+    font-weight: 400;
+    color: rgb(219, 217, 217);
+}
+.bg-number{
+    margin-top: 252px;
+    margin-bottom: 24px;
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    opacity: 1;
+    visibility: hidden;
+}
+h1.bg-content{
+    font-size: 70px;
+    font-weight: 800;
+    color: aliceblue;
+}
+span{
+    font-weight: 10;
+}
+.bg-find{
+   align-items: center;
+   visibility: hidden;
+}
+.btn-search{
+    text-decoration: none;
+    color: rgb(245, 243, 243);
+}
+input.search{
+    width: 40%;
+    height: 44px;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 16px;
+    padding-left: 35px;
+    margin-right: 14px;
+    
+}
+.bg-find button{
+    background-color:rgb(21, 126, 251) ;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.bg-element h1{
+    margin-top: 20px;
+    font-size: 60px;
+    color: white;
+}
+/* ----------------------benefit---------------------- */
+
+/* ------------------recent blog -----------------*/
+.col-blog{
+    width: 25%;
+    padding: 0px 15px;
+}
+.img-blog{
+   
+}
+.img-blog-link{
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 250px;
+    
+    position: relative;
+    display: block;
+}
+.text-blog{
+    margin-top: 16px;
+}
+.time-blog>p{
+    color: rgb(179, 179, 179);
+    font-size: 15px;
+}
+.header-blog{
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header-blog>a{
+    
+    text-decoration: none;
+    color: rgb(50, 49, 49);
+    font-weight: 500;
+    
+}
+.header-blog>a:hover{
+    color: rgb(21, 126, 251);;
+}
+.text-blog>p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+/* -------------pagination------------ */
+.pagination {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination a {
+    color: black;
+    padding: 12px 12px;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 50%;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a.btn-active {
+    color: rgb(201, 200, 200);
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+/* ------------------sub--------------------- */
+.subcribe{
+    /* padding: 112px 0px; */
+    
+}
+.subcribe-background{
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding: 4em 0;
+    background: #157efb;
+
+}
+.subcribe-container {
+    margin: 0px 210px;
+    padding: 0px 15px;
+}
+.row-sub{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.col-sub{ 
+    text-align: center;
+    padding: 0px 15px;
+}
+.col-sub>h2{
+    font-weight: 400 ;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+.col-sub>p{
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 28.8px;
+    margin-bottom: 10px;
+}
+.form-group {
+    display: flex;
+    
+}
+.text-mail{
+    font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    height: 52px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid transparent;
+    outline: 0;
+}
+ input.button {
+    cursor: pointer;
+    padding: 0px 14px;
+    border: 1px solid transparent;
+    color: #fff !important;
+    background: #5dd28e !important;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+}
+/* footer */
+.foot{
+    padding: 112px 0px;
+    font-size: 16px;
+    background: #222831;
+    padding: 7em 0;
+}
+.foot-container{
+    margin: 0px 210px;
+    padding: 0px 15px;
+}
+.row-foot{
+    margin: 0px -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-foot{
+    padding: 0px 10px;
+    width: 25%;
+}
+.content-col{
+    
+}
+.content-col>h2{
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.content-col>p{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 28.8px;
+}
+.chuc-vu{
+    padding: 0;
+    list-style-type: none;
+    display: table-cell;
+}
+.ti-location-pin {
+    font-size: 18px;
+    color: white;
+    margin-right:20px ;
+}
+.ti-email{
+    font-size: 18px;
+    color: white;
+    margin-right:20px ;
+}
+.element-chuc-vu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.element-chuc-vu>span{
+    display: table-cell;
+    vertical-align: top;
+    word-wrap:break-word;
+}
+.link-chucvu{
+    
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+/* scroll */
+.header.sticky {
+    padding: 12px 16px;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1px 6px 14px rgb(0 0 0 / 20%);
+    /* color: black; */
+    transition: 0.4s;
+}
+.sticky .nav-home{
+    color: #000000;
+    transition: 0.4s;
+}
+.header.sticky ul li a {
+    color: #333;
+    transition: 0.4s;
+  }
+
+/* reveal */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+        
+
+/* respon */
+/* moble */
+
+
+@media only screen and (max-width:821px){
+    .list-flex-row{
+        display: block;
+    }
+    .benefit-image{
+        width: 70px;
+        min-width: none;
+        min-width: 70px;
+    }
+    .job-container, .bg-container{
+        margin: 0 10px;
+    }
+    .category{
+        margin: 0;
+        padding: 0px 10px;
+    }
+    .row-recent-container{
+        /* margin-left: 30px; */
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .row-item {
+        
+        margin-bottom: 24px;
+    }
+    .apply{
+        margin-left: -296px;
+    }
+    .statistical-container{
+        margin: 0 138px;
+    }
+    .col-blog{
+        width: 100%;
+    }
+    .row-sub{
+        width: 100%;
+    }
+    .subcribe-container{
+        margin: 0px;
+    }
+    .col-sub>h2{
+        
+        font-size: 28px;
+        
+    }
+    .col-sub>p{
+        font-size: 16px;
+    }
+    .foot-container{
+        margin: 0px;
+        font-size: 12px;
+    }
+    input.search {
+        width: 70%;
+        
+    }
+    .bg-number{
+        font-size: 16px;
+    }
+    h1.bg-content{
+        font-size: 36px;
+    }
+    
+}
+/* tablet */
+@media screen and (max-width: 1200px){
+    .header>div.container-nav{
+        margin: 0px 20px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .header>div.container-nav{
+        margin: 0px 10px;
+    }
+    .nav-element{
+        margin-left: 135px;
+    }
+}
+/* respon-nav */
+@media screen and (max-width: 987px){
+    .icon {
+        color: #000000;
+        transform: translateY(-10px);
+        font-size: 40px;
+    }
+    ul.nav-ull{
+        text-align: left;
+        margin-left: 0;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-element{
+        flex-direction: column;
+       
+        margin-left: 0px;
+        
+    }
+    
+    .nav-item{
+        margin: 2px 0px;
+    
+    }
+    a.nav-link{
+        padding: 0;
+    }
+    button.btn.btn-primary {
+        width: 100%;
+    }
+    button.btn.btn-success {
+        width: 100%;
+    }
+    .header>div.container-nav{
+        transform: none;
+    }
+    a.icon {
+        display: block;
+    }
+    ul.nav-ull{
+        display: none;
+    }
+
+    
+}
+@media only screen and (min-width:1400px){
+    .nav-ull{
+        display: flex;
+        flex-direction: row;
+    }
+    ul.dis-none{
+        display: flex !important;
+    }
+}
+ul.dis-none{
+    display: block;
+}
+/* ------------------ */
+div.nav-element-col{
+
+}
+/*  */
+
+@media only screen and (max-width:881px) {
+    .job-container{
+        margin: 0px 20px;
+    }
+    .apply{
+        margin-left: 30px;
+    }
+    .row-recent-container{
+        padding: 18px;
+    }
+    .row-item {
+        margin-right: 0px;
+    }
+    .job-row{
+        margin: 0 30px;
+    }
+    .foot-container{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .row-element-statis {
+        margin-right: 20px;
+    }
+
+}
+
+@media only screen and (max-width:951px) {
+    .job-container{
+        margin: 0px 100px;
+    }
+    .apply{
+        margin-left: 30px;
+    }
+    .job-row{
+        margin: 0 30px;
+    }
+    .foot-container{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .row-element-statis {
+        margin-right: 20px;
+    }
+    /* header */
+    ul.nav-ull-respon{
+        margin-left: 0;
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-element-respon{
+        flex-direction: column;
+    }
+    .nav-item{
+        margin: 2px 0px;
+    
+    }
+    a.nav-link{
+        padding: 0;
+    }
+    button.btn.btn-primary {
+        width: 100%;
+    }
+    button.btn.btn-success {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media only screen and (max-width:1413px) {
+    .job-container{
+        /* margin: 0px 100px; */
+        margin: 0px 16px;
+    }
+    .apply{
+        margin-left: 30px;
+    }
+    .blog-size{
+        /* width: ; */
+    }
+    .nav-ull{
+        display: block;
+    }
+}
+
+
+
+.container{
+    margin: 0 190px;
+    padding:0 15px ;
+}
+.bg-color{
+    background-color: rgb(248, 249, 250);
+}

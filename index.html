@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Mobile:width<740px -->
+        <!-- tablet: width >= 740px and width < 1024px -->
+    <!-- pc:width >= 1024px -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/styleTest.css">
     <link rel="stylesheet" href="./assets/css/font/themify-icons/themify-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link
@@ -13,18 +16,20 @@
         type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
       />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Nav -->
     <nav class="header">
         <div class="container-nav">
-            <a href="index.html" class="nav-home">FindJob</a>
+           
             <div class="nav-element">
-                <ul class="nav-ull">
-                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <a href="index.html" class="nav-home">FindJob</a>
+                <ul class="nav-ull" id="navv">
+                    <li class="nav-item"><a href="./test.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="./blog.html" class="nav-link">Blog</a></li>
+                    
                     
                     <li class="nav-item">
                         <button type="button" class="btn btn-primary">
@@ -36,12 +41,15 @@
                         <a href="" class="btn-nav">Want a job</a>
                         </button>
                     </li>
+                    
                 </ul>
+                
             </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </div>
     </nav>
     <!-- Find -->
-    <div class="bg-image " id="bg" style="background-image: url(https://preview.colorlib.com/theme/jobportal/images/xbg_2.jpg.pagespeed.ic.UrtJzl_WMI.webp); height: 661px; background-position: 50%; background-size: cover;">
+    <div class="bg-image ">
         <div class="bg-container " >
             <div class="bg-element">
                 <p class="bg-number">
@@ -52,9 +60,10 @@
                    <span>Job is Waiting</span>
                 </h1>
                 <div class="bg-find">
-                    <form action="">
+                    <form action="" class="form-search">
+                        <span class="fa fa-search"></span>
                         <input type="text" class="search" placeholder="Find job">
-                        <button><a href="" class="btn-search">Search</a></button>
+                        <button><a href="./search.html" class="btn-search">Search</a></button>
                     </form>
                     
                 </div>
@@ -62,9 +71,9 @@
         </div>
     </div>
     <!-- Benefit of web -->
-    <section class="benefit reveal">
-        <div class="benefit-container reveal">
-            <div class="benefit-row ">
+    <section class="job-post bg-color reveal">
+        <div class="job-list job-container reveal">
+            <div class="list-flex-row ">
                 <div class="benefit-element">
                     <img src="./assets/image/Benefit/image1.png" alt="" class="benefit-image">
                     <div class="image-content">
@@ -98,7 +107,6 @@
     </section>
     <!-- Job post -->
     <section class="job-post reveal ">
-        <div class="">
             <div class="job-container-header">
                 <div class="job-header">
                     <p class="header-Categories">
@@ -109,7 +117,8 @@
                     </span>
                 </div>
             </div>
-            <div class="job-list  ">
+            
+            <div class="job-list list-flex-row">
                 <div class="job-row reveal ">
                     <ul class="category">
                         <li class="category-element">
@@ -163,7 +172,7 @@
                 <div class="job-row reveal">
                     <ul class="category">
                         <li class="category-element">
-                            <a href="" class="fields">Web development 
+                            <a href="" class="fields">Web 
                                 <span class="number">1000</span>
                             </a>
                         </li>
@@ -212,11 +221,11 @@
                 </div>
                 
             </div>
-        </div>
+       
     </section>
     <!-- Recent Jobs -->
-    <section class="recent-job reveal">
-        <div class="recent-container">
+    <section class="job-post bg-color reveal">
+        <div class="job-container">
             <!-- header -->
             <div class="job-container-header">
                 <div class="job-header">
@@ -229,7 +238,7 @@
                 </div>
             </div>
             <!-- List job -->
-            <div class="list-recent-job">
+            <div class="job-list ">
                     <div class="row-recent reveal">
                         <div class="row-recent-container">
                             <!-- row-item -->
@@ -408,12 +417,12 @@
     <!-- Thong ke -->
     <section class="statistical reveal">
             <div class="statistical-container">
-                <div class="row-statis">
+                <div class="job-list list-flex-row list-flex-space">
                     <div class="row-element-statis">
                         <div class="text">
                             <strong class="number-statis" >1,350,000</strong>
                             <span class="text-statis">
-                                Jobs
+                                Công việc
                             </span>
                         </div>
                     </div>
@@ -421,7 +430,7 @@
                         <div class="text">
                             <strong class="number-statis" >1,350,000</strong>
                             <span class="text-statis">
-                                Jobs
+                                Ứng viên
                             </span>
                         </div>
                     </div>
@@ -429,7 +438,7 @@
                         <div class="text">
                             <strong class="number-statis" >1,350,000</strong>
                             <span class="text-statis">
-                                Jobs
+                                Công ty
                             </span>
                         </div>
                     </div>  
@@ -438,8 +447,8 @@
             
     </section>
     <!-- company-->
-    <section class="big-group reveal">
-        <div class="big-group-container">
+    <section class="job-post reveal">
+        <div class="job-container">
             <div class="job-container-header">
                 <div class="job-header">
                     <p class="header-Categories">
@@ -474,8 +483,8 @@
         </div>
     </section>
     <!-- recent blog -->
-    <section class="recent-blog reveal">
-        <div class="recent-blog-container">
+    <section class="job-post bg-color reveal">
+        <div class="job-container">
             <div class="job-container-header">
                 <div class="job-header">
                     <p class="header-Categories">
@@ -486,7 +495,7 @@
                     </span>
                 </div>
             </div>
-            <div class="row-blog">
+            <div class="list-flex-row blog-size">
                 <div class="col-blog">
                     <div class="img-blog">
                          <a href="" class="img-blog-link" style="background-image: url(./assets/image/blog/blog1.jpg);"> </a>
@@ -519,7 +528,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-blog">
+                <div class="col-blog ">
                     <div class="img-blog">
                          <a href="" class="img-blog-link" style="background-image: url(./assets/image/blog/blog2.jpg);"> </a>
                     </div>
@@ -640,6 +649,7 @@
             </div>
         </div>
     </footer>
+
     <!-- js -->
 
     <script
@@ -707,7 +717,18 @@
             })
         })
     </script>
-
+<script>
+    function myFunction() {
+      var x = document.getElementById("navv");
+      if (x.className === "nav-ull") {           
+        x.classList.add("dis-none");
+        console.log(x);
+      } else {
+        x.classList.remove("dis-none");
+        console.log(x);
+      }
+    }
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
